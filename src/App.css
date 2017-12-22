@@ -1,0 +1,87 @@
+.App {
+  height: 100%;
+  text-align: center;
+}
+
+.Container {
+  height: 100%;
+  display: flex;
+  flex: 1 1;
+  flex-direction: row;
+}
+
+.App-logo {
+  height: 80px;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 10px;
+  color: white;
+  font-size: large;
+  text-align: left;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Module {
+  flex: 1 1;
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: #ff6347;
+  overflow-y: scroll;
+}
+
+h2 {
+  text-decoration: 1px 1px 2px black;
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 10px;
+  color: white;
+  font-family: Trebuchet MS;
+}
+
+li {
+  list-style-type: none;
+}
+
+input {
+  width: 80%;
+}
+
+.Margin {
+  margin: 30px 0 15px 0;
+}
+
+button {
+  justify-content: center;
+  margin: 10px 5px 5px 0;
+}
+
+.AfficheInfos {
+  justify-content: center;
+}
+
+img {
+  justify-content: left;
+  margin: 5px 5px 5px 5px;
+}
+
+.Ecriture {
+  font-size: medium;
+  font-family: Trebuchet MS;
+
+}
